@@ -14,6 +14,12 @@
 		A314319F1C8753FA00C39D29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A314319D1C8753FA00C39D29 /* LaunchScreen.storyboard */; };
 		A31431AA1C8753FA00C39D29 /* Facebook_CP_Assignment_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31431A91C8753FA00C39D29 /* Facebook_CP_Assignment_5Tests.swift */; };
 		A31431B51C8753FA00C39D29 /* Facebook_CP_Assignment_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31431B41C8753FA00C39D29 /* Facebook_CP_Assignment_5UITests.swift */; };
+		A31431C31C87579100C39D29 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31431C21C87579100C39D29 /* FeedViewController.swift */; };
+		A31431C91C87CEF700C39D29 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31431C81C87CEF700C39D29 /* PhotoViewController.swift */; };
+		A3D7B1A91C8A54FA00BF25D7 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7B1A71C8A54F900BF25D7 /* BaseTransition.swift */; };
+		A3D7B1AA1C8A54FA00BF25D7 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7B1A81C8A54F900BF25D7 /* FadeTransition.swift */; };
+		A3D7B1AC1C8A552900BF25D7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7B1AB1C8A552900BF25D7 /* Common.swift */; };
+		A3D7B1AE1C8A559F00BF25D7 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7B1AD1C8A559F00BF25D7 /* ImageTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		A31431B01C8753FA00C39D29 /* Facebook CP Assignment 5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Facebook CP Assignment 5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31431B41C8753FA00C39D29 /* Facebook_CP_Assignment_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facebook_CP_Assignment_5UITests.swift; sourceTree = "<group>"; };
 		A31431B61C8753FA00C39D29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A31431C21C87579100C39D29 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A31431C81C87CEF700C39D29 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		A3D7B1A71C8A54F900BF25D7 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		A3D7B1A81C8A54F900BF25D7 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		A3D7B1AB1C8A552900BF25D7 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		A3D7B1AD1C8A559F00BF25D7 /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,12 @@
 				A31431941C8753FA00C39D29 /* AppDelegate.swift */,
 				A31431961C8753FA00C39D29 /* ViewController.swift */,
 				A31431981C8753FA00C39D29 /* Main.storyboard */,
+				A31431C81C87CEF700C39D29 /* PhotoViewController.swift */,
+				A31431C21C87579100C39D29 /* FeedViewController.swift */,
+				A3D7B1AD1C8A559F00BF25D7 /* ImageTransition.swift */,
+				A3D7B1A71C8A54F900BF25D7 /* BaseTransition.swift */,
+				A3D7B1A81C8A54F900BF25D7 /* FadeTransition.swift */,
+				A3D7B1AB1C8A552900BF25D7 /* Common.swift */,
 				A314319B1C8753FA00C39D29 /* Assets.xcassets */,
 				A314319D1C8753FA00C39D29 /* LaunchScreen.storyboard */,
 				A31431A01C8753FA00C39D29 /* Info.plist */,
@@ -257,7 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A31431971C8753FA00C39D29 /* ViewController.swift in Sources */,
+				A3D7B1A91C8A54FA00BF25D7 /* BaseTransition.swift in Sources */,
+				A31431C91C87CEF700C39D29 /* PhotoViewController.swift in Sources */,
+				A31431C31C87579100C39D29 /* FeedViewController.swift in Sources */,
+				A3D7B1AA1C8A54FA00BF25D7 /* FadeTransition.swift in Sources */,
 				A31431951C8753FA00C39D29 /* AppDelegate.swift in Sources */,
+				A3D7B1AE1C8A559F00BF25D7 /* ImageTransition.swift in Sources */,
+				A3D7B1AC1C8A552900BF25D7 /* Common.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +506,7 @@
 				A31431BB1C8753FA00C39D29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A31431BC1C8753FA00C39D29 /* Build configuration list for PBXNativeTarget "Facebook CP Assignment 5Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +515,7 @@
 				A31431BE1C8753FA00C39D29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A31431BF1C8753FA00C39D29 /* Build configuration list for PBXNativeTarget "Facebook CP Assignment 5UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +524,7 @@
 				A31431C11C8753FA00C39D29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
