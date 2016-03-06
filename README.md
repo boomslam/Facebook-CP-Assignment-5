@@ -5,7 +5,7 @@ Codepath week 5 assignment
 Hours: 8
 
 Description: 
-Tumblr prototype
+Facebook Newsfeed Prototype
 
 ## Requirements
  * [x] Required: Create custom transition to display images
